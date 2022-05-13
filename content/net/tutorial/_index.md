@@ -37,7 +37,153 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](html-web-apps.png#center)</a> 
 
-<!-->
-{{< html-converter-switch PDF XPS JPG PNG BMP GIF TIFF >}}
--->
+<!-- 
 
+{{< html-converter PDF XPS JPG PNG BMP GIF TIFF >}}
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! PDF CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+===
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! XPS CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+    ===
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! JPG CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+===
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! PNG CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+===
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! BMP CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+===
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
+
+DELETE!!!!! GIF CONTENT
+
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "${inputFile}");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "${outputFile}");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+===
+xvdzfvdzfbvfdgfdgbfdg
+{{< /html-converter>}}
+-->
