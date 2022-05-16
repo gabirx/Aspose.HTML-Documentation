@@ -37,8 +37,8 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](html-web-apps.png#center)</a> 
 
-<!-- 
 
+<!--
 {{< html-converter PDF XPS JPG PNG BMP GIF TIFF >}}
 using Aspose.Html;
 using Aspose.Html.Rendering.Pdf;
